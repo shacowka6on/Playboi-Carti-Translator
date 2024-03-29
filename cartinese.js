@@ -50,7 +50,6 @@ function capitalizeFirstLetter(string) {
 }
 
 logo.addEventListener('click', () => {
-    console.log("logo pressed lol")
     window.location.href = "https://www.youtube.com/watch?v=bpWp90ELMEs&ab_channel=H%C3%94TELLOBBY"
 })
 
