@@ -59,7 +59,7 @@ input.addEventListener("input", replaceAll);
 swap.addEventListener("click", function () {
   const inputLabelHTML = inputLabel.innerHTML;
 
-  currentDictionary = inputLabelHTML == "English" ? dictionaryEng : dictionaryCarti;
+  currentDictionary = inputLabelHTML == "English" ? dictionaryCarti : dictionaryEng;
   reg = setReg(currentDictionary);
 
   inputLabel.innerHTML = outputLabel.innerHTML;
